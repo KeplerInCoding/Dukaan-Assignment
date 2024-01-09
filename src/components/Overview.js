@@ -2,7 +2,7 @@ import React from 'react'
 
 const Overview = () => {
   return (
-    <div className='flex place-content-evenly gap-2  flex-wrap'>
+    <div className='flex place-content-evenly gap-4 flex-wrap'>
       {/* card 1 */}
       <div className='flex flex-col bg-sky-600 text-white rounded-lg w-80'>
         <div className='flex items-center gap-1 px-4 pt-4'>
@@ -10,7 +10,7 @@ const Overview = () => {
           <i class="fas fa-circle-question"></i>
         </div>
         <div className='flex place-content-between px-4 gap-5 py-3'>
-          <div className='text-2xl font-semibold'>2,312.23</div>
+          <div className='text-2xl font-semibold'>₹2,312.23</div>
           <div className=' underline font-semibold'>23 orders</div>
         </div>
         <div className='flex place-content-between gap-5 text-xs bg-sky-800 p-2 px-4 rounded-lg'>
@@ -26,8 +26,8 @@ const Overview = () => {
           <div>Amount Pending</div>
           <i class="fas fa-circle-question"></i>
         </div>
-        <div className='flex place-content-between px-4 gap-5 py-3'>
-          <div className='text-2xl font-semibold'>2,312.23</div>
+        <div className='flex place-content-between px-4 gap-5 pt-3'>
+          <div className='text-2xl font-semibold'>₹2,312.23</div>
           <div className=' underline font-semibold text-sky-600'>23 orders</div>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Overview = () => {
           <i class="fas fa-circle-question"></i>
         </div>
         <div className='flex place-content-between px-4 gap-5 py-3'>
-          <div className='text-2xl font-semibold'>2,312.23</div>
+          <div className='text-2xl font-semibold'>₹2,312.23</div>
           <div className=' underline font-semibold text-sky-600'>23 orders</div>
         </div>
       </div>

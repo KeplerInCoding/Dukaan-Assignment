@@ -13,8 +13,8 @@ const Payouts = () => {
   return (
     <div className='w-full bg-gray-50'>
       <Header/>
-      <div className='flex place-content-between p-5 py-8'>
-        <div className='font-semibold'>Overview</div>
+      <div className='flex place-content-between p-5 py-6'>
+        <div className='font-semibold text-lg'>Overview</div>
         <Filter option={option} handleOptionChange={handleOptionChange}/>
       </div>
       
