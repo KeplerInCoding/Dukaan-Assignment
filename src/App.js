@@ -1,6 +1,6 @@
 import "./App.css";
 import Sidebar from "./components/Sidebar";
-import Discounts from "./pages/Discounts";
+import Payouts from "./pages/Payouts";
 import {Route, Routes} from 'react-router-dom';
 import Progress from "./pages/Progress";
 
@@ -10,7 +10,7 @@ function App() {
     <Sidebar/>
 
     <Routes>
-        <Route path="/" element={<Discounts/>}></Route>
+        <Route path="/" element={<Payouts/>}></Route>
         <Route path="/progress" element={<Progress/>}></Route>
         {/* <Route path="/sip" element={<Delievery/>}></Route>
         <Route path="/sip" element={<Marketing/>}></Route>
