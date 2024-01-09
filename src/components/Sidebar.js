@@ -9,7 +9,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="min-h-screen h-auto w-52 bg-blue text-white text-sm flex flex-col place-content-between">
+    <div className="min-h-screen h-auto w-60 bg-blue text-white text-sm flex flex-col place-content-between">
       <div>
         <Logo />
         <nav className="m-2">
